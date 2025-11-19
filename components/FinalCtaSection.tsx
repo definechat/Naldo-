@@ -41,7 +41,12 @@ export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({ whatsappLink }
           className="w-full md:w-auto min-w-[300px]"
         />
         
-        <div className="mt-6 flex justify-center gap-4 text-sm text-gray-400">
+        {/* Preço Discreto Adicionado */}
+        <p className="mt-4 text-xs text-gray-400 font-light tracking-wide">
+          Produto a partir de R$ 197,00
+        </p>
+        
+        <div className="mt-2 flex justify-center gap-4 text-sm text-gray-400">
             <span className="flex items-center gap-1">✓ 100% Gratuito</span>
             <span className="flex items-center gap-1">✓ Sem Spam</span>
         </div>
