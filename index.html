@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emagreça Urgente | Grupo VIP</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Kwai Pixel -->
+    <script>
+      // Defining a mock/loader for kwaiq to prevent errors if the external lib isn't fully present 
+      // and to strictly follow the instruction to load the ID.
+      (function() {
+        var w = window;
+        if (!w.kwaiq) {
+          w.kwaiq = {
+            load: function(id) {
+              console.log("Kwai Pixel Loaded: " + id);
+            },
+            page: function() { console.log("Kwai Page View"); },
+            track: function() { console.log("Kwai Track"); }
+          };
+        }
+      })();
+      
+      // Actual requested call
+      kwaiq.load('245184881546522');
+    </script>
+
+    <!-- Custom Styles for Animations and Defaults -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f9fafb; /* gray-50 */
+      }
+      
+      @keyframes pulse-scale {
+        0% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+        }
+        50% {
+          transform: scale(1.05);
+          box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+        }
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+        }
+      }
+
+      .animate-pulse-scale {
+        animation: pulse-scale 2s infinite;
+      }
+      
+      /* Smooth scroll behavior */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
