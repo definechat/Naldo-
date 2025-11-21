@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         <div className="border-b border-gray-800 pb-6 mb-6">
             <h4 className="text-white font-bold text-lg mb-2">Aviso Legal</h4>
             <p className="leading-relaxed max-w-3xl mx-auto">
-              Os resultados podem variar de pessoa para pessoa. As informações fornecidas neste site não substituem o aconselhamento médico profissional. Sempre consulte um médico ou profissional de saúde qualificado antes de iniciar qualquer novo programa de dieta ou exercícios.
+              Nossa página não tem nenhuma ligação com o Facebook Meta. Todas as informações são de responsabilidade de seus idealizadores.
             </p>
         </div>
         
