@@ -6,7 +6,7 @@ import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
   // Global constant as requested - Updated Link
-  const WHATSAPP_DIRECT_LINK = "whatsapp://chat?code=DmSz4jIMUBRKrZqKiujIEj";
+  const WHATSAPP_DIRECT_LINK = "whatsapp://chat?code=KVRV8Gbi7aGGsqZTnMito3";
 
   return (
     <div className="min-h-screen flex flex-col text-gray-800 antialiased overflow-x-hidden">
